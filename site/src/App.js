@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import PageProducto from './Componentes/PageProducto';
 
-function App() {
-  return (
-    <div>Hola </div>
-  );
+class App extends Component {
+
+  render(){
+    return  <PageProducto />
+  }
 }
 
 export default App;
