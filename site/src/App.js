@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import './App.css';
-import PageListaProductos from './Componentes/PageListaProductos';
+import PagePedidoDetalle from './Componentes/PagePedidoDetalle';
 
 class App extends Component {
 
   render(){
-    return  <PageListaProductos />
+    return  <PagePedidoDetalle />
   }
 }
 

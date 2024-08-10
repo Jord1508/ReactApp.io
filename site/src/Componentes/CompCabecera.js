@@ -13,7 +13,7 @@ class CompCabecera extends Component {
                     <span className="float-right">
                         <div className="collapse navbar-collapse" id="navbarText">
                             <img src="imagenes/carrito.png" width="32" height="32" alt="" />
-                            <a className="text-danger" href="#">&nbsp;3 producto(s)</a>
+                            <a className="text-danger" href="#">N &nbsp;{this.props.pCantidadProductos} producto(s)</a>
                         </div>
                     </span>
                 </div>
